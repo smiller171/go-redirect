@@ -17,7 +17,7 @@ dependencies:
 test:
   override:
     - docker run -d -p 80:80 "$DOCKER_USER"/go-ssl-redirect:$CIRCLE_TAG
-    - curl -s localhost/test | grep '<a href="https://localhost/test">Found</a>.'
+    - curl -s localhost/test | grep '<a href="https://localhost/test">MovedPermanently</a>.'
 deployment:
   release:
     tag: /.*/

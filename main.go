@@ -50,7 +50,7 @@ func (h RedirectHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		r.Method, destination.String(),
 	)
 
-	http.Redirect(w, r, destination.String(), http.StatusFound)
+	http.Redirect(w, r, destination.String(), http.StatusMovedPermanently)
 }
 
 func parseOptions() Options {
