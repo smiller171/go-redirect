@@ -7,6 +7,7 @@ Redirect HTTP to HTTPS with Docker
 
 # Supported Tags and `Dockerfile` links
 * `latest` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/master/Dockerfile) - [![](https://badge.imagelayers.io/scottmiller171/go-ssl-redirect:latest.svg)](https://imagelayers.io/?images=scottmiller171/go-ssl-redirect:latest 'Get your own badge on imagelayers.io')
+* `1.2` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/1.2/Dockerfile) - [![](https://badge.imagelayers.io/scottmiller171/go-ssl-redirect:1.2.svg)](https://imagelayers.io/?images=scottmiller171/go-ssl-redirect:1.2 'Get your own badge on imagelayers.io')
 * `1.1` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/1.1/Dockerfile) - [![](https://badge.imagelayers.io/scottmiller171/go-ssl-redirect:1.1.svg)](https://imagelayers.io/?images=scottmiller171/go-ssl-redirect:1.1 'Get your own badge on imagelayers.io')
 * `1.0` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/1.0/Dockerfile) - [![](https://badge.imagelayers.io/scottmiller171/go-ssl-redirect:1.0.svg)](https://imagelayers.io/?images=scottmiller171/go-ssl-redirect:1.0 'Get your own badge on imagelayers.io')
 
