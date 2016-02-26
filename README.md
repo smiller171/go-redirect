@@ -5,6 +5,7 @@ go-redirect [![CircleCI branch](https://img.shields.io/circleci/project/smiller1
 
 Redirect HTTP to HTTPS with Docker
 
+[Docker Hub](https://hub.docker.com/r/scottmiller171/go-ssl-redirect/)
 # Supported Tags and `Dockerfile` links
 * `latest` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/master/Dockerfile) - [![](https://badge.imagelayers.io/scottmiller171/go-ssl-redirect:latest.svg)](https://imagelayers.io/?images=scottmiller171/go-ssl-redirect:latest 'Get your own badge on imagelayers.io')
 * `1.2` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/1.2/Dockerfile) - [![](https://badge.imagelayers.io/scottmiller171/go-ssl-redirect:1.2.svg)](https://imagelayers.io/?images=scottmiller171/go-ssl-redirect:1.2 'Get your own badge on imagelayers.io')
