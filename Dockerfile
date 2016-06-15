@@ -5,4 +5,4 @@ ADD go-redirect go-redirect
 
 EXPOSE 80
 
-CMD [ "/go-redirect" ]
+ENTRYPOINT [ "/go-redirect" ]
