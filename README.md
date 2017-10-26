@@ -32,10 +32,7 @@ All HTTP requests will hit this image and be redirected to make HTTPS request. T
 
 # How do I build it myself?
 
-Assuming you have go installed, do the following:
 ```sh
-CGO_ENABLED=0 GOOS=linux go build -a -ldflags '-s'
 docker build -t go-ssl-redirect .
 docker run go-ssl-redirect
 ```
-I am doing the build outside of a Docker container so that I can reduce the size of the image. The official GoLang container is 725 MB in size. By doing it this way, this entire container is only 5.5MB
