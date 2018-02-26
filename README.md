@@ -9,10 +9,6 @@ Redirect HTTP to HTTPS with Docker
 [Docker Hub](https://hub.docker.com/r/scottmiller171/ssl-redirect/)
 # Supported Tags and `Dockerfile` links
 * `latest` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/master/Dockerfile) - [![](https://images.microbadger.com/badges/image/scottmiller171/ssl-redirect.svg)](https://microbadger.com/images/scottmiller171/ssl-redirect "Get your own image badge on microbadger.com")
-* `1.3` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/1.3/Dockerfile) - [![](https://badge.imagelayers.io/scottmiller171/ssl-redirect:1.3.svg)](https://imagelayers.io/?images=scottmiller171/ssl-redirect:1.2 'Get your own badge on imagelayers.io')
-* `1.2` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/1.2/Dockerfile) - [![](https://badge.imagelayers.io/scottmiller171/ssl-redirect:1.2.svg)](https://imagelayers.io/?images=scottmiller171/ssl-redirect:1.2 'Get your own badge on imagelayers.io')
-* `1.1` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/1.1/Dockerfile) - [![](https://badge.imagelayers.io/scottmiller171/ssl-redirect:1.1.svg)](https://imagelayers.io/?images=scottmiller171/ssl-redirect:1.1 'Get your own badge on imagelayers.io')
-* `1.0` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/1.0/Dockerfile) - [![](https://badge.imagelayers.io/scottmiller171/ssl-redirect:1.0.svg)](https://imagelayers.io/?images=scottmiller171/ssl-redirect:1.0 'Get your own badge on imagelayers.io')
 
 # What is this?
 This image accepts any http request and redirects to the https version of the same page.  
