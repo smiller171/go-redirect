@@ -3,7 +3,7 @@ WORKDIR /go/src/app
 COPY main.go .
 RUN go get -d -v ./...
 RUN go run main.go & \
-    sleep 1 && \
+    sleep 2 && \
     curl -s localhost:80/test && \
     curl -s localhost:80/test | grep '<a href="https://localhost/test">Moved Permanently</a>.'
 
