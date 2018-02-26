@@ -23,7 +23,7 @@ func main() {
 	}
 
 	listen := fmt.Sprintf(":%s", o.Source)
-	fmt.Println("Listing on", listen)
+	fmt.Println("Listening on", listen)
 	log.Fatal(http.ListenAndServe(listen, handler))
 }
 
