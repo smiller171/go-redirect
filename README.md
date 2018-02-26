@@ -9,6 +9,7 @@ Redirect HTTP to HTTPS with Docker
 [Docker Hub](https://hub.docker.com/r/scottmiller171/ssl-redirect/)
 # Supported Tags and `Dockerfile` links
 * `latest` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/master/Dockerfile) - [![](https://images.microbadger.com/badges/image/scottmiller171/ssl-redirect.svg)](https://microbadger.com/images/scottmiller171/ssl-redirect "Get your own image badge on microbadger.com")
+* `1.3` [(Dockerfile)](https://github.com/smiller171/go-redirect/blob/1.3/Dockerfile) - [![](https://images.microbadger.com/badges/image/scottmiller171/ssl-redirect:1.3.svg)](https://microbadger.com/images/scottmiller171/ssl-redirect:1.3 "Get your own image badge on microbadger.com")
 
 # What is this?
 This image accepts any http request and redirects to the https version of the same page.  
