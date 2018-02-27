@@ -1,7 +1,8 @@
 go-redirect [![Docker Build Status](https://img.shields.io/docker/build/scottmiller171/ssl-redirect.svg)]()
 ===========
 
-[![Join the chat at https://gitter.im/smiller171/go-redirect](https://badges.gitter.im/smiller171/go-redirect.svg)](https://gitter.im/smiller171/go-redirect?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://img.shields.io/gitter/room/smiller171/go-redirect.js.svg)](https://gitter.im/smiller171/go-redirect)
+
 
 Redirect HTTP to HTTPS with Docker
 
