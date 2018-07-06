@@ -22,7 +22,7 @@ func TestHealthCheckHandler(t *testing.T) {
 		{"GET", "http://foo/", "8080", 301, "https://foo:8080/"},
 		{"GET", "http://foo/bar", "8080", 301, "https://foo:8080/bar"},
 		{"GET", "http://foo/bar?baz=true", "8080", 301, "https://foo:8080/bar?baz=true"},
-		{"POST", "http://foo/bar", "443", 301, ""},
+		{"POST", "http://foo/bar", "443", 308, ""},
 	}
 
 	for _, tt := range redirTests {
