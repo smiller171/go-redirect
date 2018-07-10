@@ -33,8 +33,14 @@ type RedirectHandler struct {
 
 func (h RedirectHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	host, _, err := net.SplitHostPort(r.Host)
+	redirCode := http.StatusMovedPermanently
 	if err != nil {
 		host = r.Host
+	}
+	if r.Method != "GET" {
+		// RFC-7538: Redirecting non-GET requests requires a 308 instead of a 301.
+		// Otherwise they'll be re-transmitted as GETs, which may break some clients.
+		redirCode = http.StatusPermanentRedirect
 	}
 
 	destination := *r.URL
@@ -50,7 +56,7 @@ func (h RedirectHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		r.Method, destination.String(),
 	)
 
-	http.Redirect(w, r, destination.String(), http.StatusMovedPermanently)
+	http.Redirect(w, r, destination.String(), redirCode)
 }
 
 func parseOptions() Options {
