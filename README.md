@@ -1,4 +1,4 @@
-go-redirect [![Docker Build Status](https://img.shields.io/docker/build/millergeek/ssl-redirect.svg)]()
+go-redirect [![Docker Build Status](https://img.shields.io/docker/build/millergeek/ssl-redirect.svg)](https://hub.docker.com/r/millergeek/ssl-redirect/builds/)
 ===========
 
 [![Gitter](https://img.shields.io/gitter/room/smiller171/go-redirect.js.svg)](https://gitter.im/smiller171/go-redirect)
